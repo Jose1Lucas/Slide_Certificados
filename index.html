@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificados</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <h1>JL</h1>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="src/Cert1.png" alt="Certificado 1"></div>
+            <div class="slide"><img src="src/Cert2.png" alt="Certificado 2"></div>
+            <div class="slide"><img src="src/Cert3.png" alt="Certificado 3"></div>
+            <div class="slide"><img src="src/Cert4.png" alt="Certificado 4"></div>
+            <div class="slide"><img src="src/Cert5.png" alt="Certificado 5"></div>
+            <div class="slide"><img src="src/Cert6.png" alt="Certificado 6"></div>
+            <div class="slide"><img src="src/Cert7.png" alt="Certificado 7"></div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+    </div>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
